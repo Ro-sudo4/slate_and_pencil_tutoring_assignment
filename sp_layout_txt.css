@@ -58,6 +58,11 @@ footer {
   float: left;
 }
 
+/* CSS Grid Styles */
+
+/* Horizontal Navigation List Styles */
+
+/* Section Styles */
 img {
   width: 50%;
   margin-top: 0%;
@@ -93,10 +98,5 @@ p {
   width: 75%;
   margin-left: 5%;
 }
-/* CSS Grid Styles */
-
-/* Horizontal Navigation List Styles */
-
-/* Section Styles */
 
 /* Customer Comment Styles */
