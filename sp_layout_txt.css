@@ -36,7 +36,10 @@ body {
   width: 100%;
   padding: auto;
 }
-
+.horizontal {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
 footer {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -49,7 +52,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
 .horizontal > ul > li {
   display: block;
   width: 12.5%;
