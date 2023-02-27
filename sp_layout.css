@@ -14,6 +14,7 @@
 */
 
 /* Window and Body Styles */
+/* CSS Grid Styles */
 html {
   height: 100%;
 }
@@ -23,7 +24,8 @@ body {
   min-width: 640px;
   max-width: 960px;
   min-height: 100%;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
 }
 * img {
@@ -50,12 +52,6 @@ footer {
   grid-column-end: 5;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-/* CSS Grid Styles */
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /* Horizontal Navigation List Styles */
