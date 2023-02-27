@@ -30,7 +30,6 @@ body {
 * img {
   display: block;
 }
-
 #logo {
   grid-column-start: 1;
   grid-column-end: 4;
